@@ -3,7 +3,7 @@ from formatters.binaryFormatter import BinaryFormatter
 from formatters.hexFormatter import HexFormatter
 from formatters.decimalFormatter import DecimalFormatter
 from formatters.htmlFormatter import HtmlFormatter
-from producer import Producer
+from producer.producer import Producer
 
 
 p1 = Producer('Code Broadcast')
